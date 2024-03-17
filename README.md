@@ -18,4 +18,4 @@ A guide on setting up debugging for emulated windows mobile devices
   - Load your binary in IDA, and select "Remote WinCE debugger (ActiveSync)"
   - If not attach debugging, for the debugger settings, set "Application" to the exe's file path **on the emulator**, such as `\Program Files\Abc\xyz.exe`
 
-- **Notes:** If your emulator still wont connect when cradled, try running 'rapi1.reg' and 'WcesComm.reg', and reboot windows. This may resolve it.
+- **Notes:** If your emulator still wont connect when cradled, try running `rapi1.reg` and `WcesComm.reg`, and reboot windows. This may resolve it.
