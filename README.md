@@ -10,9 +10,6 @@ A guide on setting up debugging for emulated windows mobile devices
 - **3. Optional - Get Emulation .bin files**
   - To get Pocket PC/Smartphone 2003 emulation files, install Visual Studio 9.0 (2008) from here via [en_visual_studio_2008_professional_x86_dvd_x14-26326.iso](https://archive.org/download/en_visual_studio_2008_professional_x86_dvd_x14-26326_202310)
   - To get Windows Mobile 5.0 files, install `efp.msi`
-- **4. Optional - Get Emulation .bin files**
-  - To get Pocket PC/Smartphone 2003 emulation files, install Visual Studio 9.0 (2008) from here via [en_visual_studio_2008_professional_x86_dvd_x14-26326.iso](https://archive.org/download/en_visual_studio_2008_professional_x86_dvd_x14-26326_202310)
-  - To get Windows Mobile 5.0 files, install `efp.msi`
 - **4. Debugging**
   - I use IDA Pro 7.0, any IDA version below 7.0 or below has ActiveSync debugging.
   - **Note for Pocket PC 2003**: I can only attach to processes in IDA versions 6.5-7.0, I cannot start them automatically. If you need to start them automatically, you'll have to use IDA 6.1 or below
