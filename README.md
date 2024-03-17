@@ -16,3 +16,5 @@ A guide on setting up debugging for emulated windows mobile devices
   - Open Microsoft Device Emulator, and select your emulator, right click and select connect. Once booted, right click again and select cradle. (It should auto connect via DMA to ActiveSync)
   - Load your binary in IDA, and select "Remote WinCE debugger (ActiveSync)"
   - If not attach debugging, for the debugger settings, set "Application" to the exe's file path **on the emulator**, such as `\Program Files\Abc\xyz.exe`
+
+- **Notes:** If your emulator still wont connect when cradled, try running rapi1.reg and WcesComm.reg, and reboot windows. This may resolve it.
